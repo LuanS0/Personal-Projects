@@ -5,63 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Shop</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <div class="">
-            <label for="Image">
-                <img src="images/search.jpg" alt="Search Icon">
-            </label>
-            <label for="Image">
-                <img src="images/user.jpg" alt="User Icon">
-            </label>
+        <div class="nav-header">
+            <img class="logo" src="images/logo.png" alt="Logo">
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-items"><a href="">Home</a></li>
+                    <li class="nav-items"><a href="">Products</a></li>
+                    <li class="nav-items"><a href="">Services</a></li>
+                    <li class="nav-items"><a href="">About</a></li>
+                    <li class="nav-items"><a href="">Contact</a></li>
+                </ul>
+                <div class="nav-control">
+                    <label for="Image">
+                        <img class="search" src="images/search.svg" alt="Search Icon">
+                    </label>
+                    <label for="Image">
+                        <img class="user" src="images/user.svg" alt="User Icon">
+                    </label>
+                </div>
+            </nav>
+            <div class="nav-hamburger">
+                <img class="hamburger" src="images/hamburger.png" alt="hamburger">
+            </div>
         </div>
     </header>
     <main>
-        <section>
-            <aside>
-                <h2>COFFEE SHOP</h2>
-                <h1>Discover the taste of real coffee</h1>
-                <p>The best coffee of city</p>
-                <label for="text">
+        <section class="first-article">
+            <aside class="article-content">
+                <h2 class="sub-tittle">COFFEE SHOP</h2>
+                <h1 class="tittle">Discover the taste of real coffee</h1>
+                <p class="description">The best coffee of city</p>
+                <div class="meet-us" for="text">
                     <p>MEET US</p>
-                    <img src="images/Arrow 1.svg" alt="arrow-us">
-                </label>
+                    <img class="meet-us-icon" src="images/Arrow 1.svg" alt="arrow-us">
+                </div>
             </aside>
             <picture>
-                <source srcset="" media="(min-width:768px)">
-                <img src="" alt="Image Main">
+                <source srcset="images/complement-main-desktop.png" media="(min-width:768px)">
+                <!--<img class="img-main" src="images/complement-main-mobile.jpg" alt="Image Main">-->
             </picture>
         </section>
-        <section>
-            <picture>
-                <source srcset="" media="(min-width:768px)">
-                <img src="" alt="The Coffee House">
-            </picture>
-            <aside>
-                <label for="text">
+
+        <section class="second-article">
+            <div class="image-container">
+                <picture>
+                    <source srcset="" media="(min-width:768px)">
+                    <img class="image-about" src="images/about-us.jpg" alt="The Coffee House">
+                </picture>
+            </div>
+            <aside class="meet-containter">
+                <label class="meet-us-text" for="text">
                     <p>MEET US</p>
                 </label>
-                <h2>Organic & Fresh Coffee Provider Center</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error voluptate accusantium 
+                <h2 class="tittle-meet">Organic & Fresh Coffee Provider Center</h2>
+                <p class="description-meet">Sed ut perspiciatis unde omnis iste natus error voluptate accusantium 
                 doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore 
                 veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
                 ipsluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur
                 magni dolores eos qui ratione</p>
             </aside>
         </section>
-        <section>
+                <!--
+
+                -->
+        <section class="third-article">
             <!--SLIDER SWIPPER-->
         </section>
-        <section>
+        <section class="fourth-article">
             <img src="" alt="">
             <img src="" alt="">
             <img src="" alt="">

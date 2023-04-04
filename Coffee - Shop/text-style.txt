@@ -1,16 +1,17 @@
 ---------------------- [STYLE] ----------------------
 	
 	##### COLORS #######
-	bg-header: #3F253F
-	bg-swipper: #423241
-	bg-about-us: #5D4B5D
-	green: #4C8381
-	white: #F5F5F5
+	--bg-header: #3F253F;
+	--bg-swipper: #423241;
+	--bg-about-us: #5D4B5D;
+	--green: #4C8381;
+	--white: #F5F5F5;
 	
 	##### FONT-FAMILY #######
 	Mountserrat - 100 - 36pt
 	
 	Moulpali -300 - 72pt
-	
+	Comfortaa
+	Roboto
 	Mountserrat - 100 - 36pt
 	
