@@ -211,6 +211,15 @@ nav{
     color: white;
 }
 
+.fourth-article{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wallpaper-item{
+    max-width: 300px;
+}
 
 
 @media (min-width:768px) {
