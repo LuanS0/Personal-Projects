@@ -16,9 +16,7 @@
     --h-about-us-mob: calc(100vh * 0.28);
     --h-about-us-desk: calc(100vh * 0.5);
     /*TITTLE FONT-SIZE*/
-    --fs-max-tittle: calc(24px + (24-16)*(100vw - 320px)/(1280-1556));
-    --fs-med-tittle: calc(30px + (24-16)*(100vw - 320px)/(768-1280));
-    --fs-min-tittle: calc(32px + (32-16)*(100vw - 320px)/(768-320));
+    --fs-min-tittle: calc(32px + (32-16)*(100vw - 320px)/(1440-320));
     
     /*SUBTITTLE FONT-SIZE*/
     --fs-min-subtittle: calc(20px + (20-16)*(100vw - 320px)/(320-768));
@@ -330,13 +328,13 @@ footer{
 
 .input-message{
     position: relative;
-    min-width: 300px;
+    max-width: 300px;
     min-height: 40px;
     border-radius: 10px;
     border: solid 1px white;
     background-color: var(--white);
     font-family: var(--roboto);
-    font-size: 14pt;
+    font-size: 12pt;
     padding-left: 40px;
 }
 
@@ -355,7 +353,7 @@ footer{
 }
 
 .submit-message{
-    min-width: 300px;
+    max-width: 300px;
     min-height: 40px;
     border-radius: 10px;
     border: none;
@@ -389,6 +387,18 @@ footer{
     display: flex;
     gap: 1rem;
 }
+
+.top-footer{
+    flex-direction: column;
+    max-height: 700px;
+    gap: 1rem;
+}
+
+.bottom-footer{
+    flex-direction: column;
+    gap: .5rem;
+}
+
 
 @media (min-width:768px) {
     nav{
@@ -478,7 +488,9 @@ footer{
         height: 100%;
     }
 
-
+    .top-footer{
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 1536px) {
